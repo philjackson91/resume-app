@@ -1,0 +1,35 @@
+.background {
+  background-color: gray;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.background > a {
+  text-decoration: none;
+}
+.background button {
+  margin: 70px auto 0;
+  display: block;
+  height: 32px;
+  width: 206px;
+  border-radius: 13px;
+  background-color: lightslategray;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border:0;
+  box-shadow: 5px 5px 5px black;
+}
+.resume {
+  background-color: aliceblue;
+  margin-top: 60px;
+  margin-left: 150px;
+  margin-right: 200px;
+  box-shadow: 5px 5px 5px black;
+  padding: 50px 100px
+}
+.resume h1 {
+  color: lightseagreen;
+}
+.resume h3 {
+  color: lightseagreen; 
+}

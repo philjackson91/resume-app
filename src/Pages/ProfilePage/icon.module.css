@@ -1,0 +1,13 @@
+.icon {
+    display: flex;
+    flex-direction: column;
+}
+.line {
+    width: 22px;
+    height: 3px;
+    background-color: lightslategrey;
+    border-radius: 8px;
+}
+.square {
+    display: block;
+}

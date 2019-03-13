@@ -9,11 +9,11 @@ class Layout extends Component {
     }
 
     sideMenuClosedHandler = () => {
-        this.setState( {showSideMenu: false} );
+        this.setState( { showSideMenu: false } );
     }
 
     sideMenuToggleHandler = () => {
-        this.setState( (prevState) => {
+        this.setState( ( prevState ) => {
             return { showSideMenu: !prevState.showSideMenu };
         } );
     }

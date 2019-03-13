@@ -1,0 +1,28 @@
+.Login {
+    padding-top: 119px;
+    text-align: center;
+}
+.form {
+    margin-bottom: 50px;
+}
+.form input {
+    border-radius: 50px;
+    width: 75%;
+    margin: 0 auto;
+}
+.form button {
+    border-radius: 50px;
+    height: 40px;
+    width: 200px;
+    border: 0;
+    background-color: lightslategray;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+.userInfo {
+    display: flex;
+    border: 1px solid lightslategray;
+    margin: 50px;
+    justify-content: space-evenly;
+}

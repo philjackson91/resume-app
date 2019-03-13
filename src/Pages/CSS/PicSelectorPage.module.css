@@ -1,0 +1,33 @@
+.grid {
+    margin: 0 auto;
+    height: 100vh;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: 
+    'selectedpic'
+    'imageGallery'
+}
+
+.selectedPic {
+    height: 391px;
+    margin-top: 112px;
+    grid-area: selectedpic;
+}
+.selectedPic img{
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+.imageGallery {
+    display: block;
+    margin: 0 auto;
+    grid-area: imageGallery;
+    height: 181px;
+}
+.imageGallery img {
+    height: 70px;
+    width: 75px;
+    padding: 2px;
+}

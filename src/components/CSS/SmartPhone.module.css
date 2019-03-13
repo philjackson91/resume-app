@@ -1,0 +1,32 @@
+.smartphone {
+    position: relative;
+    width: 338px;
+    height: 632px;
+    margin: auto;
+    border: 4px black solid;
+    border-radius: 50px;
+    border-top-width: 10px;
+    border-bottom-width: 15px;
+}
+.smartphone content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.app::-webkit-scrollbar {
+    display: none;
+}
+.app {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+.app {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 39px;
+    height: 97%;
+    width: 94%;
+    border: 10px solid white;
+}

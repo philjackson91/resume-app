@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Logo from '../../UI/Logo/Logo';
 import ToolbarNavItems from '../Toolbar/ToolbarNavItems/ToolbarNavItems';
 import style from './SideMenu.module.css';
@@ -11,6 +12,7 @@ const sideMenu = ( props ) => {
     if (props.open) {
         attachedClasses = [style.SideMenu, style.Open]
     }
+    
     
     return (
         <Aux>

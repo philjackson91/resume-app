@@ -1,0 +1,46 @@
+.AppHeader {
+    position: fixed;
+    width: 100%;
+    top: 80px;
+    background-color: white;
+    z-index: 2;
+    margin: 0;
+    border-bottom: 1px solid lightgray;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.AppHeader button {
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: lightslategray;
+    cursor: pointer;
+}
+
+.AppHeader > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.AppHeader a {
+    text-decoration: none;
+    font-size: 25px;
+    color: lightslategray;
+}
+.Next {
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+}
+.Logout {
+    text-decoration: none;
+    color: lightslategray;
+    display: flex;
+    justify-content: right;
+}

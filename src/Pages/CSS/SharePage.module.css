@@ -1,0 +1,12 @@
+.pageContainer {
+    margin-top: 137px;
+    margin-bottom: 70px;
+}
+.input {
+    border-radius: 50px;
+    margin: 20px 0 0 40px;
+    width: 70%;
+    font-size: large;
+    text-indent: 15px;
+    border: 0
+}

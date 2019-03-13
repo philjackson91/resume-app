@@ -5,10 +5,9 @@ import { Link } from 'react-router-dom';
 
 const toolbarNavItems = () => (
     <ul className={style.NavigationItems}>
-        <ToolbarNavItem ><Link to="/auth">Login In</Link></ToolbarNavItem>
-        <ToolbarNavItem ><Link to="/resume">Experience</Link></ToolbarNavItem>
-        <ToolbarNavItem ><Link to="/resume">Skills</Link></ToolbarNavItem>
-        <ToolbarNavItem ><Link to="/contact">Contact</Link></ToolbarNavItem>
+        <ToolbarNavItem ><Link to="/resume">Resume</Link></ToolbarNavItem>
+        <ToolbarNavItem ><Link to="/login-page">Social App</Link></ToolbarNavItem>
+        
     </ul>
 );
 
