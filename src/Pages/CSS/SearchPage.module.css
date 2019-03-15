@@ -1,0 +1,16 @@
+.searchBar {
+    color: lightslategray;
+    font-size: 18px;
+    border: none;
+    float: left;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+.searchBar::placeholder{
+    font-size: 18px;
+}
+.container {
+    margin-right: auto;
+}

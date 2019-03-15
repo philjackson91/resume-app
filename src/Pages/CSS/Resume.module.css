@@ -33,3 +33,13 @@
 .resume h3 {
   color: lightseagreen; 
 }
+@media (max-width: 770px) {
+  .resume {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+  }
+  .resume p > a {
+    display: block;
+  }
+}

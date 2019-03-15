@@ -3,13 +3,13 @@ import { withRouter, Link } from 'react-router-dom';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCrown, faArrowLeft, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
+import { faDog, faArrowLeft, faSignOutAlt, faSearch } from '@fortawesome/free-solid-svg-icons';
 
+import SearchPage from '../../../Pages/SearchPage/SearchPage';
 
 import style from '../../CSS/AppHeader.module.css';
-import PageIcons from '../AppFooter/AppFooterToolbar';
 
-library.add(faCrown, faArrowLeft, faSignOutAlt)
+library.add(faDog, faArrowLeft, faSignOutAlt, faSearch)
 
 const appHeader = ( props ) => {
 
@@ -26,7 +26,7 @@ const appHeader = ( props ) => {
                     </div>
                 </div>
             break;
-        case ( '/share-page'):
+        case ( '/share-page' ):
             inputElement =
                 <div className={style.AppHeader}>
                     <div className={style.container}>
@@ -37,13 +37,22 @@ const appHeader = ( props ) => {
                     </div>
                 </div>
             break;
+            case ( '/search-page'):
+            inputElement = 
+                <div className={style.AppHeader}>
+                    <div>
+                        <FontAwesomeIcon className={style.search} icon='search'/>
+                        <SearchPage />
+                    </div>
+                </div>
+            break;
         default:
             inputElement =  
                 <div className={style.AppHeader}>
                     <div>
-                        <Link to='/clone-home-page'><FontAwesomeIcon icon='crown'/></Link>
+                        <Link className={style.dog} to='/clone-home-page'><FontAwesomeIcon icon='dog'/></Link>
+                        <p className={style.puppygram}>Puppygram</p>
                         <Link className={style.Logout} to={'/logout'}><FontAwesomeIcon icon='sign-out-alt'/></Link>
-                        <PageIcons/>
                     </div>
                 </div>
     }
@@ -51,7 +60,6 @@ const appHeader = ( props ) => {
         return (
             <div>
                 {inputElement}
-                <PageIcons />
             </div>
         )
 

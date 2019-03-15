@@ -1,5 +1,5 @@
 .Login {
-    padding-top: 119px;
+    padding-top: 200px;
     text-align: center;
 }
 .form {
@@ -7,13 +7,13 @@
 }
 .form input {
     border-radius: 50px;
-    width: 75%;
+    width: 55%;
     margin: 0 auto;
 }
 .form button {
     border-radius: 50px;
     height: 40px;
-    width: 200px;
+    width: 20%;
     border: 0;
     background-color: lightslategray;
     color: white;
@@ -23,6 +23,8 @@
 .userInfo {
     display: flex;
     border: 1px solid lightslategray;
-    margin: 50px;
     justify-content: space-evenly;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-width: 483px;
 }

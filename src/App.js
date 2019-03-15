@@ -14,6 +14,8 @@ import ProfilePage from './Pages/ProfilePage/ProfilePage';
 import AppHeader from './components/Navigation/AppHeader/AppHeader';
 import AppFooter from './components/Navigation/AppFooter/AppFooterToolbar';
 import SharePage from './Pages/SharePage/SharePage';
+import SearchPage from './Pages/SearchPage/SearchPage';
+import NotificationPage from './Pages/NotificationPage/NotificationPage';
 
 
 class App extends Component {
@@ -35,6 +37,8 @@ class App extends Component {
       routes = (
         <Switch>
           <Route path='/' exact component={Home}/>
+          <Route path='/search-page' exact component={SearchPage}/>
+          <Route path='/notification-page' exact component={NotificationPage}/>
           <Route path='/logout' component={Logout}/>
           <Route path='/profile-page' component={ProfilePage}/>
           <Route path='/add-post-page' component={PicSelectorPage}/>

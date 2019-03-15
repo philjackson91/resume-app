@@ -30,7 +30,7 @@
 }
 .AppHeader a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: lightslategray;
 }
 .Next {
@@ -38,9 +38,28 @@
     display: flex;
     justify-content: right;
 }
+.search {
+    font-size: 30px;
+    margin: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    color: lightslategray;
+}
 .Logout {
     text-decoration: none;
     color: lightslategray;
     display: flex;
     justify-content: right;
+}
+.dog {
+    padding-right: 20px;
+    border-right: 1px solid lightslategray;
+}
+.puppygram {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin: 0;
+    margin-right: auto;
+    padding-left: 20px;
 }
