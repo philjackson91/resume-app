@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+
 import style from '../CSS/Home.module.css';
 import Signature from '../../components/UI/Signature/Signature';
+
 
 class Home extends Component {
     render () {

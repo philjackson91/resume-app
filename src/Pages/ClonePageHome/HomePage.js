@@ -15,6 +15,7 @@ class HomePage extends Component {
     componentDidMount () {
         const rootref = firebase.database().ref('users/' + this.props.userId);
         rootref.on('value', snap => {
+            console.log('[rootref]', rootref)
             this.props.onFetchData({
                 userData: snap.val()
             })

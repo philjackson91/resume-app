@@ -1,12 +1,4 @@
-
-.Logo {
-    background-color: white;
-    padding: 3px;
-    height: 88%;
-    box-sizing: border-box;
-    border-radius: 40px;
-}
-
-.Logo img {
-    height: 100%;
+.crown {
+    font-size: 44px;
+    color: lightsteelblue;
 }

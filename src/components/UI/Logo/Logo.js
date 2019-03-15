@@ -1,12 +1,17 @@
 import React from 'react';
-import Logo from '../../../assets/images/Chromatic-Tiles-Lion-King-No-Background.png';
-import style from './Logo.module.css';
 import { Link } from 'react-router-dom';
 
-const logo = (props) => (
+import style from './Logo.module.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCrown } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faCrown)
+
+const logo = () => (
     <div className={style.Logo}>
         <Link to='/'>
-            <img src={Logo} alt='Logo'></img>
+            <FontAwesomeIcon className={style.crown} icon='crown'/>
         </Link>
         
     </div>
