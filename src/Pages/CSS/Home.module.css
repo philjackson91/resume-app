@@ -14,18 +14,12 @@ nav {
 }
 
 .Sig {
+    color: lightsteelblue;
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
-}
-.Sig span {
-    content:"";
-    margin: 30px 10px 0px 10px;
-    flex: 1 1 auto;
-    border-top: 1px solid #F4B400;
-}
-.Sig img {
-    max-width: 100%;
+
 }
 
 
@@ -34,7 +28,7 @@ nav {
     background-color: #4285F4;
     outline: none;
     cursor: pointer;
-    border: 1px solid #0F9D58;
+    border: 1px solid lightsteelblue;
     color: white;
     font-family: inherit;
     font-size: 1.2em;
@@ -47,9 +41,9 @@ nav {
 
 
 .Btn:hover, .Btn:active {
-    background-color: #0F9D58;
-    border: 1px solid #0F9D58;
-    color: white;
+    background-color: lightsteelblue;
+    border: 1px solid lightsteelblue;
+    color: #4285F4;
     animation: enable 0.3s linear;
 }
 @keyframes enable {

@@ -10,7 +10,8 @@ class Home extends Component {
         return (
             <div className={style.Home}>
                 <div className={style.Sig}>
-                    <span></span><Signature /><span></span>
+                    <p>Phillip Jackson</p>
+                    {/* <span></span><Signature /><span></span> */}
                 </div>
                 <nav>
                 <Link to="/resume">
